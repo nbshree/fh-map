@@ -45,7 +45,13 @@ const Position = (props) => {
     setData([defaultPosition1]);
   }, []);
   return (
-    <Checkbox.Group options={options} defaultValue={[1]} onChange={onChange} />
+    <div>
+      <Checkbox.Group
+        options={options}
+        defaultValue={[1]}
+        onChange={onChange}
+      />
+    </div>
   );
 };
 
