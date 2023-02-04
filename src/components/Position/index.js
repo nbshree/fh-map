@@ -13,7 +13,7 @@ const defaultPosition1 = [
   { top: 424, bottom: 397 },
   { top: 743, bottom: 704 },
   { top: 556, bottom: 691 },
-].map((item, index) => ({ ...item, index, color: "black" }));
+].map((item, index) => ({ ...item, index: index + 1, color: "black" }));
 
 const defaultPosition2 = [
   { top: 317, bottom: 264 },
@@ -27,7 +27,7 @@ const defaultPosition2 = [
   { top: 73, bottom: 211 },
   { top: 718, bottom: 808 },
   { top: 816, bottom: 415 },
-].map((item, index) => ({ ...item, index, color: "red" }));
+].map((item, index) => ({ ...item, index: index + 1, color: "red" }));
 
 const options = [
   { label: "向往大海的泪", value: 1 },
