@@ -22,7 +22,7 @@ const defaultPosition2 = [
   { top: 815, bottom: 416 },
   { top: 240, bottom: 168 },
   { top: 193, bottom: 692 },
-  { top: 717, bottom: 807 },
+  { top: 775, bottom: 363 },
   { top: 157, bottom: 658 },
   { top: 73, bottom: 211 },
   { top: 718, bottom: 808 },
