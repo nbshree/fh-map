@@ -25,7 +25,7 @@ const defaultPosition2 = [
   { top: 775, bottom: 363 },
   { top: 157, bottom: 658 },
   { top: 73, bottom: 211 },
-  { top: 718, bottom: 808 },
+  { top: 688, bottom: 550 },
   { top: 816, bottom: 415 },
 ].map((item, index) => ({ ...item, index: index + 1, color: "red" }));
 
